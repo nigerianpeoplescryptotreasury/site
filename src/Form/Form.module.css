@@ -75,5 +75,23 @@
 }
 
 .recaptcha {
-  margin: 10px 0; /* Add some margin to the ReCAPTCHA component */
+  /* Default size */
+  transform: scale(1);
+  transform-origin: 0 0;
+}
+
+@media (max-width: 600px) {
+  .recaptcha {
+    /* Smaller size for screens with width 600px or less */
+    transform: scale(0.8);
+    transform-origin: 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .recaptcha {
+    /* Even smaller size for screens with width 400px or less */
+    transform: scale(0.6);
+    transform-origin: 0 0;
+  }
 }

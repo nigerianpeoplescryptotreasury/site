@@ -13,6 +13,10 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
 }
 
+.address {
+  word-break: break-all; /* Break words at arbitrary points to prevent overflow */
+  overflow-wrap: break-word; /* Break long words to fit within the container */
+}
 
 @media screen and (max-width: 768px) {
     .about-text, .about-coin {
