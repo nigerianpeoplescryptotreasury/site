@@ -26,7 +26,7 @@ function About() {
           </ol>
       </div>
       <div className={styles["about-coin"]}>
-        <p> <b>Coins minted:</b> 999</p>
+        <p> <b>Coins minted:</b> 9992</p>
         <p> <b>Total holders:</b> 999</p>
         <p> <b>Youre mum in kg:</b> 999</p>
       </div>
