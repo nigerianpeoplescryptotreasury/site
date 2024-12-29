@@ -1,0 +1,41 @@
+.about-component {
+    display: flex;
+    flex-direction: column;
+    margin: 20px; /* Add some space around the component */
+}
+
+.about-text, .about-coin {
+    font-size: 18px;
+    background-color: rgb(226, 226, 221);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px; /* Add space between text and coin sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow for depth */
+}
+
+
+@media screen and (max-width: 768px) {
+    .about-text, .about-coin {
+      font-size: 12px; 
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .about-text, .about-coin {
+      font-size: 10px;
+    }
+  }
+
+.about-coin {
+    text-align: center;
+}
+
+.about-text ul,
+.about-text ol {
+    margin-left: 20px; /* Add indentation to list items */
+}
+
+.about-text li {
+    margin-bottom: 10px; /* Add space between list items */
+}
+

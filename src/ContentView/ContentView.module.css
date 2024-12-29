@@ -1,0 +1,5 @@
+.content-view{
+    width: 80%;
+    height: 85vh;
+    overflow-y: auto;
+}

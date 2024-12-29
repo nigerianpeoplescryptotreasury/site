@@ -1,0 +1,51 @@
+.quote-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60vh;
+    text-align: center;
+    transition: transform 0.5s ease;
+  }
+
+  .card-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .quote {
+    font-size: 18px;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .quote, .card{
+      font-size: 13px; 
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .quote, .card{
+      font-size: 8px; 
+    }
+  }
+
+  .nav-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    opacity: 0.2;
+    border: none; 
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 25px;
+  }
+
+  .nav-button:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+  }
