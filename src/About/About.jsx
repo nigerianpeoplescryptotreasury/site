@@ -26,9 +26,9 @@ function About() {
           </ol>
       </div>
       <div className={styles["about-coin"]}>
-        <p> <b>Coins minted:</b> 9992</p>
-        <p> <b>Total holders:</b> 999</p>
-        <p> <b>Youre mum in kg:</b> 999</p>
+        <p> <b>Current Supply</b> 234,510,055</p>
+        <p> <b>Authority address</b> 3iYEdJhq9m1hs2er6S4uUmvYyJRufQPUL21cfdC1gXMj</p>
+        <p> <b>Token address </b> 95tdDDYmm4T1UrbJfG3mQMhMffeJVJdrSSoDkizekrRw</p>
       </div>
     </div>
   );
