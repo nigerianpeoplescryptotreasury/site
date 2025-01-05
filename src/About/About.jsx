@@ -5,7 +5,7 @@ function About() {
     <div className={styles["about-component"]}>
       <div className={styles["about-text"]}>
         <p>
-          The Nigerian People Crypto Treasury is a groundbreaking initiative
+          The Nigerian Crypto Treasury is a groundbreaking initiative
           that distributes a unique cryptocurrency coin to every Nigerian, giving
           them the opportunity to be part of the digital financial revolution.
           Whether you are new to crypto or already familiar with it, this project

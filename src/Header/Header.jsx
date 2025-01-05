@@ -7,7 +7,7 @@ function Header() {
       <div className={styles["header-content"]}>
           <div className={styles["header-text-blur"]}>
             <img src={logo} alt="Logo" className={styles["logo"]} />
-            Nigerians people crypto treasury
+             Nigerian Crypto Treasury
             <img src={logo} alt="Logo" className={styles["logo"]} />
           </div>
       </div>
