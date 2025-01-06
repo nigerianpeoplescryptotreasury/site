@@ -26,11 +26,12 @@ function About() {
           </ol>
       </div>
       <div className={styles["about-coin"]}>
-  <p> <b>Current Supply</b> 234,510,055</p>
-  <p> <b>Authority address</b> <span className={styles.address}>3iYEdJhq9m1hs2er6S4uUmvYyJRufQPUL21cfdC1gXMj</span></p>
+  <p> <b>Current Supply</b> 234,510,055 NIGs</p>
+  <p> <b>DevTeam/Pool ratio</b> <span className={styles.address}>80/20</span></p>
+  <p> <b>Authority address</b> <span className={styles.address}>root2HnvK1ri1wLF6pkwgzmnHNGg368GbjbAvkkfchH</span></p>
   <p> <b>Token address </b> 
-    <a href="https://solscan.io/token/95tdDDYmm4T1UrbJfG3mQMhMffeJVJdrSSoDkizekrRw" target="_blank" rel="noopener noreferrer" className={styles.address}>
-      95tdDDYmm4T1UrbJfG3mQMhMffeJVJdrSSoDkizekrRw
+    <a href="https://solscan.io/token/nig2N7dLWtLoLHUc1QLK8vL2h3vDn8DfGvsac7mx4QB" target="_blank" rel="noopener noreferrer" className={styles.address}>
+        nig2N7dLWtLoLHUc1QLK8vL2h3vDn8DfGvsac7mx4QB
     </a>
   </p>
 </div>
